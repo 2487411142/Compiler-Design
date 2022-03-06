@@ -2,17 +2,17 @@
 
 This is my coursework of designing a simple compiler that compiles a subset of C#
 
-Part 1 (parser): The goal of part I is to write a lexical and syntactic analyser - a parser - for a subset of C; mini-C.
+Part 1 (parser): The goal of part I is to write a lexical and syntactic analyzer - a parser - for a subset of C; mini-C.
 Parsing consists of three parts:
 
   Scanner: the job of the scanner is to read the input file one character at a time.
-  Lexer: the lexer transforms the stream of characters into a stream of tokens. These tokens represents the lexem (i.e. a word in natural languages)
+  Lexer: the lexer transforms the stream of characters into a stream of tokens. These tokens represent the lexeme (i.e. a word in natural languages)
   Parser: the parser finally consumes the tokens and determine if the input conforms to the rule of the grammar.
 
 
-Part 2 (AST builder + semantic analyser): The goal of part II is to implement the rest of the front-end all the way to semantic analysis.
+Part 2 (AST builder + semantic analyzer): The goal of part II is to implement the rest of the front-end all the way to semantic analysis.
 This will involve modifying the parser so that it can build the Abstract Syntax Tree (AST) corresponding to the input program and then perform semantic analysis.
-In order to achieve this goal, I have to perform four tasks.
+In order to achieve this goal, I must perform four tasks.
 
   First, follow the abstract grammar specification and design the Java classes that represent the AST as seen during the course.
   Then, write an AST printer in order to output the AST into a file.
